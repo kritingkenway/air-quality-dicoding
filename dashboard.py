@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT97SgReqxgpkm73G18eGyY7NMKHbSfP9lBmMQia3VW1rZvrT9lvl_r3ub0RLq5t8gPJbzUJyLCsRCB/pub?gid=1139900285&single=true&output=csv'
-all_df = pd.read_csv('all.csv')
+all_df = pd.read_csv(url)
 
 
 
